@@ -31,4 +31,8 @@ describe('Main', () => {
   it('should be return `FizzBuzz` when multiple of 3 and 5', () => {
     expect(FizzBuzz(15)).to.be.equal('FizzBuzz');
   });
+
+  it('shoudl be return 0 when 0', () => {
+    expect(FizzBuzz(0)).to.be.equal(0);
+  });
 });
